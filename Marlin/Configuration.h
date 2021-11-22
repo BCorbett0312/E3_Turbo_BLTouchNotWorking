@@ -1049,7 +1049,7 @@
  *      - normally-closed switches to GND and D32.
  *      - normally-open switches to 5V and D32.
  */
-#define Z_MIN_PROBE_PIN P1_22 // Pin 32 is the RAMPS default
+// #define Z_MIN_PROBE_PIN P1_22 // Pin 32 is the RAMPS default
 
 /**
  * Probe Type
