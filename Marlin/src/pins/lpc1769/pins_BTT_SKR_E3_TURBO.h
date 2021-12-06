@@ -31,6 +31,8 @@
   #define BOARD_INFO_NAME "BTT SKR E3 Turbo"
 #endif
 
+#define USES_DIAG_JUMPERS
+
 // Onboard I2C EEPROM
 #define I2C_EEPROM
 #define MARLIN_EEPROM_SIZE                0x1000  // 4KB (AT24C32)
@@ -58,9 +60,9 @@
 //
 // Z Probe
 //
-#ifndef Z_MIN_PROBE_PIN
-  #define Z_MIN_PROBE_PIN                  P1_22
-#endif
+// #ifndef Z_MIN_PROBE_PIN
+//   #define Z_MIN_PROBE_PIN                  P1_22
+// #endif
 
 //
 // Filament Runout Sensor
